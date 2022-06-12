@@ -70,12 +70,14 @@ button:hover
     cursor: pointer;
 }
 
-.resposta 
+#resposta 
 {
     margin: 30px;
+
+    transition: opacity 1s;
 }
 
-.rsposta div
+#resposta div
 {
     font-size: 16px;
     font-weight: normal;

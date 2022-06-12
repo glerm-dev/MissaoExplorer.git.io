@@ -18,11 +18,11 @@ function fazerPergunta() {
     const pergunta = '<div>' + inputPergunta.value + '</div>'
 
     const totalRespostas = respostas.length
-    const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
+    const numeroRandom = Math.floor(Math.random() * totalRespostas)
  // Math.random gera um número aleatório abaixo de 1;
  // Math.floor arredonda para o valor mais próximo, que será 0;
 
-    respostaElemento.innerHTML = pergunta + respostas[numeroAleatorio]
+    respostaElemento.innerHTML = pergunta + respostas[numeroRandom]
 
     setTimeout(function() {
         respostaElemento.style.opacity = 0; 
